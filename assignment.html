@@ -5,50 +5,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rasheduzzaman World
+    <title>my assignment
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Martel:wght@900&family=Poppins&display=swap"
+            rel="stylesheet">
+
+
+
     </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Acme&family=Anton&family=Oswald&family=Poppins:wght@500&display=swap"
-        rel="stylesheet">
     <style>
         .hello {
-            border-left: 4px solid rgb(234, 250, 6);
-            padding-left: 6px;
-            font-size: 400px;
-        }
-
-        body {
-            font-family: 'Poppins', sans-serif;
+            border-left: 4px solid salmon;
+            padding: 8px;
+            margin: 0;
 
         }
 
-        .name {
-            color: sandybrown;
+        h1 {
+            color: blue;
+        }
+
+        .mission {
+            color: darkblue;
+
+        }
+
+        .rashed {
+            color: rgb(231, 69, 47);
         }
 
         .link-button {
-            background-image: linear-gradient(rgb(247, 109, 17), rgb(166, 255, 0));
-            border-image-slice: 1;
+            background-image: linear-gradient(rgb(243, 70, 70), rgb(238, 107, 231));
+        }
+
+        .first-section {
+            width: 50%;
+
+            padding-left: 4%;
+        }
+
+        .flexible-contain {
+            display: flex;
+            margin: 10px;
+        }
+
+        .top-banar {
+            background-image: url(dream-bg.png);
+            background-repeat: no-repeat;
+        }
+
+        #date {
+            color: rgb(233, 29, 252);
+        }
+
+        . para2 {
+            text-align: center;
+        }
+
+        body {
+            font-family: 'Martel', serif;
 
         }
     </style>
 </head>
 
 <body>
-    <div class="hello">
-        <h1>Hello, its me </h1>
-        <h1> <span class="name">Rasheduzzaman.</span></h1>
-    </div>
-    <div>
-        <p>
-            My self Rasheduzzaman. I am medical student of Dhaka Medical College and Hospital. I have a dream to
-            establish a charity for the poeple to give them medicine freely.
-        </p>
-        <a class="link-button" target="_blank" href="https://www.facebook.com/mdrasheduzzaman.rashed.142">Visit my
-            profile</a>
-    </div>
+    <section class="top-banar flexible-contain">
+        <div class="first-section">
+            <div class="hello">
+                <h1>Hello, it's me </h1>
+                <h1><span class=" rashed">Rasheduzzaman</span>.</h1>
+            </div>
+
+            <p>My self Rasheduzzaman. I am a medical student of <abbr title="Dhaka Medical College"> Dmc</abbr>.
+                After
+                complete my M.B.B.S i want to help the people of my villege. Because they are deprive their right.
+            </p>
+            <a class="link-button" target="_blank" href="https://www.facebook.com/mdrasheduzzaman.rashed.142">Visit
+                my
+                profile</a>
+        </div>
+        <div class="first-section">
+            <img src="shape-4.png" alt="rashed" width="500" height="400">
+        </div>
+    </section>
+    <section class="flexible-contain">
+        <div class=" para2">
+            <h1 class="mission"> My Mission In <span id="date">2022</span>
+            </h1>
+        </div>
+    </section>
+    <p></p>
 </body>
 
 </html>
